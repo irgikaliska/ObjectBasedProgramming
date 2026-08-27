@@ -12,9 +12,6 @@ public class Charger {
         this.outputWatt = outputWatt;
     }
 
-    public void plugIn() {
-        System.out.println("Charger plugged in.");
-    }
 
     public void printInfo() {
         System.out.println("Brand: " + brand);
