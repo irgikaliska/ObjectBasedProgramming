@@ -12,12 +12,7 @@ public class phoneCharger extends Charger{
     }
 
     public boolean canFastCharge (){
-        if (supportFastCharging && outputWatt >= 45){
-            return true;
-        }
-        else {
-            return false;
-        }
+        return supportFastCharging && outputWatt >= 45;
     }
 
     @Override
