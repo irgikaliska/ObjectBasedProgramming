@@ -1,0 +1,36 @@
+package Week04;
+
+public class Processor {
+    String brand;
+    double cache;
+
+    public Processor(){
+
+    }
+
+    public Processor(String brand, double cache) {
+        this.brand = brand;
+        this.cache = cache;
+    }
+
+    public void setBrand(String brand) {
+        this.brand = brand;
+    }
+
+    public String getbrand() {
+        return brand;
+    }
+
+    public void setCache(double cache) {
+        this.cache = cache;
+    }
+
+    public double getCache() {
+        return cache;
+    }
+
+    public void info() {
+        System.out.printf("Processor Brand = %s\n", brand);
+        System.out.printf("Cache Memory = %.2f\n", cache);
+    }
+}
