@@ -2,7 +2,8 @@ package Week03.GetterSetterCooperative;
 
 public class KoperasiDemo {
     public static void main(String[] args) {
-        Anggota anggota1 = new Anggota();
+        Anggota anggota1 = new Anggota("Iwan", "Jalan Mawar");
+        System.out.println("Simpanan " + anggota1.getNama() + " : Rp" + anggota1.getSimpanan());
         anggota1.setNama("Iwan Setiawan");
         anggota1.setAlamat("Jl. Soekarno Hatta no 10");
         anggota1.setor(10000);
